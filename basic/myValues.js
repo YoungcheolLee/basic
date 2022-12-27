@@ -4,7 +4,8 @@
 
 // 원시타입(Primitive data type)
 // 1. Number
-let myNum = 777;
+let myNum = 777.556;
+console.log(`Primitive data type: number = ${myNum}`);
 
 // 2. String
 let myStr = "Photato";
@@ -29,3 +30,12 @@ console.log(`Primitive data type: null = ${myUndefined}`);
 // 6. symbol
 let mySymbol = Symbol(1);
 console.log(mySymbol);
+
+/**
+ * 객체 타입(Object data type)
+ * 1. Object
+ */
+let myObject = { name: "LeeYoungCheol", age: 1989 };
+console.log(
+  `Primitive data type: object in name = ${myObject.name} , age = ${myObject.age}`
+);
