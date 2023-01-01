@@ -52,3 +52,14 @@ console.log(`myRegExp type ? ${myRegExp}`);
 
 const func = Object.prototype.toString.call(function () {});
 console.log(`func type ? ${func}`);
+
+//=========================================================================
+
+// typeCheck Function
+function typeCheck(target) {
+  return `전달받은 값의 타입은 = ${Object.prototype.toString
+    .call(target)
+    .slice(8, -1)}`;
+}
+
+console.log(typeCheck(undefined));
