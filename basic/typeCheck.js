@@ -63,3 +63,7 @@ function typeCheck(target) {
 }
 
 console.log(typeCheck(undefined));
+
+var x = 10;
+var myStr = x + "";
+console.log(typeof myStr, myStr);
