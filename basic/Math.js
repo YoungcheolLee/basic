@@ -37,20 +37,39 @@ let myAbs = Math.abs(); // NaN
 console.log(`absolute = ${myAbs}`);
 
 // Math.round : 반올림 반환
-let roundOne = Math.round(1.4); // 1
+let roundOne = Math.round(1.4);
 console.log(`1.4 반올림 값 = ${roundOne}`);
 
-let roundTwo = Math.round(1.6); // 2
+let roundTwo = Math.round(1.6);
 console.log(`1.6 반올림 값 = ${roundTwo}`);
 
-let roundThree = Math.round(-1.4); // -1
+let roundThree = Math.round(-1.4);
 console.log(`-1.4 반올림 값 = ${roundThree}`);
 
-let roundFour = Math.round(-1.6); // -2
+let roundFour = Math.round(-1.6);
 console.log(`-1.6 반올림 값 = ${roundFour}`);
 
-let roundSix = Math.round(1); // 1
+let roundSix = Math.round(1);
 console.log(`1 반올림 값 = ${roundSix}`);
 
-let roundSeven = Math.round(); // NaN
+let roundSeven = Math.round();
 console.log(`round 공백 반올림 값 = ${roundSeven}`);
+
+// Math.ceil : 올림
+let ceilOne = Math.ceil(1.4);
+console.log(`1.4 올림 = ${ceilOne}`);
+
+let ceilTwo = Math.ceil(1.6);
+console.log(`1.6 올림 = ${ceilTwo}`);
+
+let ceilThree = Math.ceil(-1.4);
+console.log(`-1.4 올림 = ${ceilThree}`);
+
+let ceilFour = Math.ceil(-1.6);
+console.log(`-1.6 올림 = ${ceilFour}`);
+
+let ceilFive = Math.ceil(1);
+console.log(`1 올림 = ${ceilFive}`);
+
+let ceilSix = Math.ceil();
+console.log(`ceil 공백 올림 = ${ceilSix}`);
