@@ -1,5 +1,6 @@
 /**
  * javascript의 scope의 개념
+ * 먼저 스코프(scope)란 ? 유효범위 이다.
  * 먼저 자바스크립트에서 var 키워드로 이용하면 블록 레벨 스코프(block-level scope)가 아닌, 함수 레벨 스코프(function-level scope)를 따른다.
  * ES6에서 도입된 let이나 const는 키워드는 블록 레벨 스코프(block-level scope) 사용이 가능하다.
  */
