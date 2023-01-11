@@ -26,6 +26,18 @@ let arrObj = {
   myArr: ["puppy", "cat", "bird"],
 };
 
+// 대괄호 표기법 key 값 참조
+const a = {
+  myNmae: "dang7",
+  age: 14,
+};
+
+const myFuncton = (key) => {
+  console.log(a[key]);
+};
+
+console.log(myFuncton("age"));
+
 console.log(myObject);
 console.log(myObject.name);
 console.log(myObject.age);
